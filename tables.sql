@@ -45,7 +45,7 @@ CREATE TABLE Schedule
   meetingTime DATE NOT NULL,
   clientID NUMERIC(9) NOT NULL,
   agentID NUMERIC(9) NOT NULL,
-  PRIMARY KEY (clientID, agentID),
+  PRIMARY KEY (meetingTime, clientID, agentID),
   FOREIGN KEY (clientID) REFERENCES client(clientID),
   FOREIGN KEY (agentID) REFERENCES agent(agentID)
 );
