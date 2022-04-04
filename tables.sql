@@ -2,10 +2,12 @@ CREATE TABLE Worker
 (
   WorkerId INT NOT NULL,
   Name VARCHAR(30) NOT NULL,
-  Role VARCHAR(20) NOT NULL,
+  Role VARCHAR(30) NOT NULL,
   SalaryPerHour FLOAT NOT NULL,
   JoinDate DATE NOT NULL,
   LeftDate DATE,
+  BirthDate DATE NOT NULL,
+  Email VARCHAR(30) NOT NULL,
   PRIMARY KEY (WorkerId)
 );
 
