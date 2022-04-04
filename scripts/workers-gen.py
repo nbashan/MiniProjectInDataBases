@@ -68,7 +68,7 @@ def create_parser():
     import argparse
     parser = argparse.ArgumentParser(description="Worker CSV Generator")
     parser.add_argument('-o', '--output', required=True, help='CSV output path')
-    parser.add_argument('-c', '--count', required=True, type=int, help='Number of workers that are currently working')
+    parser.add_argument('-d', '--departments', required=True, type=int, help='CSV of departments (departmentId, name, wingId)')
     parser.add_argument('-l', '--left', default=0, type=int, help='Number of workers that left the job')
     return parser
 
