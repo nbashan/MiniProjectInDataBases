@@ -41,11 +41,11 @@ def gen_worker(left):
     name = fake.name()
     role = gen_role()
     sallary = gen_sallary_per_hour()
-    #TODO: Sometimes, the date crashes because the month number is incorrect (29 feb when 28 is the max)
+    #TODO: Sometimes, the date crashes because the day number is incorrect (29 feb when 28 is the max)
     email = gen_email(name)
     birth_date = gen_birth_date(fake)
     join_date = gen_join_date(fake, birth_date)
-    left_date = "NULL"
+    left_date = ""
     if left:
         left_date = fake.date_between(start_date=join_date)
     return (name, role, str(sallary), str(join_date), str(left_date), str(birth_date), email)

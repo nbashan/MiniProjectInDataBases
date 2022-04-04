@@ -1,36 +1,36 @@
 WorkerId, Name, Role, SallaryPerHour, JoinDate, LeftDate, BirthDate, Email
-0,Adam Humphrey,Guide,32.66,2008-01-13,2012-11-15,1958-01-31,AdamHumphrey51@gmail.com
-1,Angela Davis,Guide,74.08,2013-05-22,2018-08-09,1980-11-21,Angela-Davis495@gmail.com
-2,Cheryl Cowan,Guard,53.14,2001-08-24,2010-07-11,1975-01-16,CherylCowan471@hotmail.com
-3,Jessica Boyd,Guide,47.73,1982-02-18,1992-05-01,1958-12-23,JessicaBoyd446@outlook.com
-4,Dr. Elizabeth Gomez,Cleaner,96.83,2011-12-09,2013-01-31,1986-11-11,Dr.-Elizabeth-Gomez586@outlook.com
-5,Jason Hampton,Guide,58.78,2019-01-02,NULL,1985-11-12,Jason-Hampton371@gmail.com
-6,Chase Taylor,Guide,31.70,2015-01-15,NULL,1990-01-03,ChaseTaylor617@hotmail.com
-7,Heidi Peck,Manager,77.53,2020-08-31,NULL,1998-11-24,Heidi_Peck316@gmail.com
-8,Elizabeth Brown,Manager,47.94,1994-05-13,NULL,1959-04-03,Elizabeth-Brown458@gmail.com
-9,Lorraine Grimes,Cleaner,33.30,2006-01-21,NULL,1967-11-12,Lorraine_Grimes800@gmail.com
-10,Wendy Kelly,Cleaner,96.62,1983-07-24,NULL,1959-06-09,Wendy-Kelly720@gmail.com
-11,Daniel Garcia,Cleaner,84.93,2014-01-21,NULL,1983-04-16,Daniel_Garcia864@gmail.com
-12,Samantha Hodge,Guide,65.20,2021-05-28,NULL,1995-09-08,Samantha-Hodge770@outlook.com
-13,Melissa Bauer,Guide,70.25,2021-11-01,NULL,1971-11-04,Melissa-Bauer870@gmail.com
-14,Jennifer Griffin,Guard,55.72,2011-07-30,NULL,1980-04-04,Jennifer_Griffin398@gmail.com
-15,James Sanders,Guide,90.75,2018-04-09,NULL,1988-09-01,James-Sanders982@outlook.com
-16,Frederick Cortez,Cleaner,65.52,2022-03-27,NULL,1994-05-05,Frederick_Cortez746@outlook.com
-17,Ronald Cabrera,Cleaner,111.29,2021-09-20,NULL,1996-05-11,RonaldCabrera297@gmail.com
-18,Omar Sanders,Manager,68.73,2005-06-21,NULL,1980-08-17,Omar_Sanders646@gmail.com
-19,Debra Golden DDS,Manager,54.39,2020-06-23,NULL,1998-04-12,Debra-Golden-DDS469@outlook.com
-20,Kenneth Smith,Cleaner,30.41,2022-01-20,NULL,1998-12-26,Kenneth_Smith293@gmail.com
-21,Trevor Garcia MD,Cleaner,119.35,2019-07-23,NULL,1989-11-14,Trevor_Garcia_MD601@outlook.com
-22,Danielle Pittman,Manager,97.69,2013-10-29,NULL,1989-05-08,Danielle_Pittman855@gmail.com
-23,Elaine Miller,Guard,108.37,1997-11-05,NULL,1965-10-02,Elaine_Miller329@walla.com
-24,Emily Holmes,Guard,103.39,2021-08-27,NULL,1999-11-07,EmilyHolmes115@gmail.com
-25,Robert Johnson,Manager,98.74,2019-02-09,NULL,1991-04-20,RobertJohnson175@gmail.com
-26,Tanya Ellison,Guard,49.48,2012-12-09,NULL,1977-04-10,Tanya-Ellison604@gmail.com
-27,Lisa Johnson,Guard,118.25,2002-04-01,NULL,1959-03-21,Lisa_Johnson400@gmail.com
-28,Thomas Smith,Guide,31.71,1998-12-31,NULL,1970-02-01,ThomasSmith970@gmail.com
-29,Sheri Ortiz,Guide,98.00,2002-06-26,NULL,1954-10-21,Sheri_Ortiz642@walla.com
-30,Christopher Thompson,Guide,84.57,2019-09-02,NULL,1998-03-28,Christopher-Thompson131@outlook.com
-31,Scott Hunter,Cleaner,103.51,2020-04-29,NULL,1999-04-29,ScottHunter707@gmail.com
-32,Vanessa Lopez,Manager,72.75,1994-06-21,NULL,1967-06-29,Vanessa-Lopez22@gmail.com
-33,Kenneth Brown,Guide,117.54,1983-01-20,NULL,1958-07-27,Kenneth-Brown966@gmail.com
-34,Tonya Martin,Guide,80.56,2005-01-30,NULL,1959-03-14,Tonya-Martin711@hotmail.com
+0,David Thomas,Guide,107.66,2021-12-25,2022-02-24,1995-09-13,David_Thomas880@gmail.com
+1,Kristine Henry,Guard,38.07,2018-09-24,2019-07-12,1981-08-27,Kristine_Henry787@hotmail.com
+2,Julie Bennett,Guide,70.67,2015-02-07,2016-05-18,1979-06-23,JulieBennett81@outlook.com
+3,Lisa Parsons,Manager,70.78,2016-10-14,2018-06-15,1993-09-03,Lisa_Parsons361@hotmail.com
+4,Stephen Newton,Manager,101.44,1999-10-13,2019-06-09,1975-10-13,Stephen-Newton774@outlook.com
+5,Robert Warren,Guide,79.00,1992-04-07,,1958-08-30,Robert-Warren691@gmail.com
+6,Diane Meadows,Guard,48.44,2015-12-21,,1954-07-09,Diane-Meadows878@hotmail.com
+7,Matthew Elliott,Manager,115.13,2013-05-24,,1970-07-12,Matthew-Elliott744@hotmail.com
+8,Matthew Horne,Cleaner,73.33,2022-02-18,,1967-06-07,MatthewHorne170@gmail.com
+9,Michael Galvan,Guide,114.65,2021-03-21,,1982-05-20,Michael-Galvan977@gmail.com
+10,Anthony Bates,Guide,100.15,2020-06-15,,1978-04-09,AnthonyBates51@gmail.com
+11,Carol Lambert,Cleaner,39.26,2014-09-14,,1981-09-24,Carol-Lambert582@gmail.com
+12,Jonathan Hernandez,Guard,64.13,2019-02-12,,1965-11-13,Jonathan-Hernandez638@gmail.com
+13,Austin Villarreal,Cleaner,83.87,2015-05-25,,1967-02-21,Austin_Villarreal158@outlook.com
+14,Lauren Crawford,Guide,84.56,2013-05-28,,1986-02-19,Lauren-Crawford169@gmail.com
+15,Candice Vasquez,Guard,47.20,2012-03-27,,1990-09-19,Candice_Vasquez1@hotmail.com
+16,Kevin Powers,Cleaner,69.26,2020-07-18,,1997-09-11,KevinPowers626@hotmail.com
+17,Robert Brown,Cleaner,118.54,1999-11-30,,1978-03-20,Robert_Brown703@gmail.com
+18,Ashley Delgado,Manager,108.32,2001-04-05,,1960-09-04,Ashley_Delgado221@gmail.com
+19,Christy Lewis,Guide,42.26,2004-03-06,,1975-08-15,Christy-Lewis972@gmail.com
+20,Ronald Sullivan,Guide,35.73,2019-12-19,,1975-08-28,Ronald_Sullivan682@outlook.com
+21,Megan Chapman,Cleaner,104.81,2018-10-23,,1968-12-26,Megan-Chapman675@gmail.com
+22,Austin Walters,Guide,74.81,2019-05-24,,1997-06-27,Austin_Walters786@hotmail.com
+23,Nicole Hernandez,Guard,69.81,2017-07-01,,1986-10-21,NicoleHernandez692@hotmail.com
+24,Melinda Sanchez,Guide,113.87,2018-12-13,,1965-09-13,Melinda-Sanchez801@outlook.com
+25,Stephanie Vincent,Manager,111.09,2007-11-28,,1968-04-19,Stephanie-Vincent714@hotmail.com
+26,Christopher Neal,Guard,38.34,2021-07-01,,1999-04-22,Christopher_Neal383@gmail.com
+27,Stacey Taylor,Guide,101.06,2005-11-20,,1953-05-04,StaceyTaylor986@gmail.com
+28,Mr. David Davis IV,Guard,37.97,2006-03-08,,1975-02-07,Mr.DavidDavisIV466@walla.com
+29,Paula Grant,Manager,62.03,2020-11-13,,1999-03-19,Paula-Grant381@gmail.com
+30,Sandra Brown,Cleaner,67.77,2017-04-25,,1983-04-30,Sandra-Brown109@gmail.com
+31,Mrs. Amber Moyer,Cleaner,37.80,2002-11-07,,1961-09-24,Mrs.-Amber-Moyer620@gmail.com
+32,Christine Harris,Cleaner,49.37,2020-05-23,,1982-04-07,Christine_Harris682@gmail.com
+33,Chase Thompson,Cleaner,107.04,2017-01-01,,1994-04-19,ChaseThompson92@outlook.com
+34,Brittney Anderson,Guard,96.62,2011-02-25,,1977-11-11,BrittneyAnderson924@hotmail.com
