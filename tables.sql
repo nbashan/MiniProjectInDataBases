@@ -1,51 +1,35 @@
-CREATE TABLE area
+CREATE TABLE Worker
 (
-  areaID NUMERIC(3) NOT NULL,
-  areaName VARCHAR(20) NOT NULL,
-  PRIMARY KEY (areaID)
+  WorkerId INT NOT NULL,
+  Name VARCHAR(30) NOT NULL,
+  Role VARCHAR(20) NOT NULL,
+  SalaryPerHour FLOAT NOT NULL,
+  JoinDate DATE NOT NULL,
+  LeftDate DATE,
+  PRIMARY KEY (WorkerId)
 );
 
-CREATE TABLE city
+CREATE TABLE Wing
 (
-  cityID INT NOT NULL,
-  cityName VARCHAR(20) NOT NULL,
-  areaID NUMERIC(3) NOT NULL,
-  PRIMARY KEY (cityID),
-  FOREIGN KEY (areaID) REFERENCES area(areaID)
+  WingId INT NOT NULL,
+  Name VARCHAR(30) NOT NULL,
+  PRIMARY KEY (WingId)
 );
 
-CREATE TABLE agent
+CREATE TABLE Department
 (
-  agentID NUMERIC(9) NOT NULL,
-  agentName VARCHAR(20) NOT NULL,
-  rating NUMERIC(2) NOT NULL,
-  hireYear NUMERIC(4) NOT NULL,
-  bossID NUMERIC(9) NOT NULL,
-  salary FLOAT NOT NULL,
-  areaID NUMERIC(3) NOT NULL,
-  PRIMARY KEY (agentID),
-  FOREIGN KEY (areaID) REFERENCES area(areaID)
+  DepartmentId INT NOT NULL,
+  Name VARCHAR(30) NOT NULL,
+  WingId INT NOT NULL,
+  PRIMARY KEY (DepartmentId),
+  FOREIGN KEY (WingId) REFERENCES Wing(WingId)
 );
 
-CREATE TABLE client
+CREATE TABLE WorksAt
 (
-  clientID NUMERIC(9) NOT NULL,
-  clientName VARCHAR(20) NOT NULL,
-  phoneNr VARCHAR(10) NOT NULL,
-  address VARCHAR(25) NOT NULL,
-  cityID INT NOT NULL,
-  agentID NUMERIC(9) NOT NULL,
-  PRIMARY KEY (clientID),
-  FOREIGN KEY (cityID) REFERENCES city(cityID),
-  FOREIGN KEY (agentID) REFERENCES agent(agentID)
-);
-
-CREATE TABLE Schedule
-(
-  meetingTime DATE NOT NULL,
-  clientID NUMERIC(9) NOT NULL,
-  agentID NUMERIC(9) NOT NULL,
-  PRIMARY KEY (meetingTime, clientID, agentID),
-  FOREIGN KEY (clientID) REFERENCES client(clientID),
-  FOREIGN KEY (agentID) REFERENCES agent(agentID)
+  WorkerId INT NOT NULL,
+  DepartmentId INT NOT NULL,
+  PRIMARY KEY (WorkerId, DepartmentId),
+  FOREIGN KEY (WorkerId) REFERENCES Worker(WorkerId),
+  FOREIGN KEY (DepartmentId) REFERENCES Department(DepartmentId)
 );
