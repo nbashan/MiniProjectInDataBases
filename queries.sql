@@ -17,7 +17,7 @@ GROUP BY DepartmentId, Name;
 SELECT w.WingId, w.Name, COUNT(d.DepartmentId) AS Departments
 FROM Wing w LEFT JOIN Department d
 ON w.WingId = d.WingId
-GROUP BY w.WingId w.Name;
+GROUP BY w.WingId, w.Name;
 
 -- All departments without workers
 SELECT * FROM Department d
