@@ -9,14 +9,15 @@ SELECT * FROM Worker;
 SELECT * FROM Worker WHERE LeftDate is NULL;
 
 -- Number of workers per department
-SELECT DepartmentId, COUNT(*) AS Workers
+SELECT DepartmentId, Name, COUNT(*) AS Workers
 FROM WorksAt NATURAL JOIN Department
-GROUP BY DepartmentId;
+GROUP BY DepartmentId, Name;
 
--- Number of workers per wing
-SELECT WingId, COUNT(*)
-FROM Worker NATURAL JOIN WorksAt NATURAL JOIN Department NATURAL JOIN Wing
-GROUP BY WingId;
+-- Number of departments per wing
+SELECT w.WingId, w.Name, COUNT(d.DepartmentId) AS Departments
+FROM Wing w LEFT JOIN Department d
+ON w.WingId = d.WingId
+GROUP BY w.WingId w.Name;
 
 -- All departments without workers
 SELECT * FROM Department d
