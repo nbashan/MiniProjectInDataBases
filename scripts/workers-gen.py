@@ -38,17 +38,20 @@ def gen_worker(left):
     fake = Faker()
     fake.add_provider(date_time)
 
-    name = fake.name()
-    role = gen_role()
-    sallary = gen_sallary_per_hour()
-    #TODO: Sometimes, the date crashes because the day number is incorrect (29 feb when 28 is the max)
-    email = gen_email(name)
-    birth_date = gen_birth_date(fake)
-    join_date = gen_join_date(fake, birth_date)
-    left_date = ""
-    if left:
-        left_date = fake.date_between(start_date=join_date)
-    return (name, role, str(sallary), str(join_date), str(left_date), str(birth_date), email)
+    try:
+        name = fake.name()
+        role = gen_role()
+        sallary = gen_sallary_per_hour()
+        #TODO: Sometimes, the date crashes because the day number is incorrect (29 feb when 28 is the max)
+        email = gen_email(name)
+        birth_date = gen_birth_date(fake)
+        join_date = gen_join_date(fake, birth_date)
+        left_date = ""
+        if left:
+            left_date = fake.date_between(start_date=join_date)
+        return (name, role, str(sallary), str(join_date), str(left_date), str(birth_date), email)
+    except:
+        return None
             
 def to_csv(workers):
     csv_rows = [','.join(w) for w in workers]
@@ -59,7 +62,9 @@ def main(args):
     for i in range(args.count + args.left):
         # TODO: fix all lefts at the beginning..
         left = i < args.left
-        workers.append((str(i),) + gen_worker(left))
+        while (worker := gen_worker(left)) is None: pass
+        workers.append((str(i),) + worker)
+        print(i)
     with open(args.output, "w") as f:
         f.write(ATTRIBUTES_ROW)
         f.write(to_csv(workers))
