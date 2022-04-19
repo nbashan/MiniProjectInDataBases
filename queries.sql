@@ -13,6 +13,11 @@ SELECT DepartmentId, Name, COUNT(*) AS Workers
 FROM WorksAt NATURAL JOIN Department
 GROUP BY DepartmentId, Name;
 
+-- Number of departments each worker works on
+SELECT WorkerId, Name, COUNT(*) AS Departments
+FROM WorksAt NATURAL JOIN Worker
+GROUP BY WorkerId, Name;
+
 -- Number of departments per wing
 SELECT w.WingId, w.Name, COUNT(d.DepartmentId) AS Departments
 FROM Wing w LEFT JOIN Department d
