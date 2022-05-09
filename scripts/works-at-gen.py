@@ -1,7 +1,7 @@
 import random
 
 ATTRIBUTES_ROW = "WorkerId,DepartmentId\n"
-MAX_DEPARTMENTS_PER_WORKER = 5
+MAX_DEPARTMENTS_PER_WORKER = 2
 
 def generate_departments(worker_id, departments_count):
     count = random.randint(1, MAX_DEPARTMENTS_PER_WORKER)
