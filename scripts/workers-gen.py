@@ -3,7 +3,7 @@ import datetime
 from faker import Faker
 from faker.providers import date_time
 
-ATTRIBUTES_ROW = 'WorkerId, Name, Role, SallaryPerHour, JoinDate, LeftDate, BirthDate, Email\n'
+ATTRIBUTES_ROW = 'WorkerId, Name, Role, SalaryPerHour, JoinDate, LeftDate, BirthDate, Email\n'
 YOUNGEST_AGE = 21
 OLDEST_AGE = 70
 MIN_SALLARY_PER_HOUR = 30

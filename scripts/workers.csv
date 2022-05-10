@@ -1,4 +1,4 @@
-WorkerId, Name, Role, SallaryPerHour, JoinDate, LeftDate, BirthDate, Email
+WorkerId, Name, Role, SalaryPerHour, JoinDate, LeftDate, BirthDate, Email
 0,Vincent Dunn,Conservator,113.26,1992-08-25,1998-01-31,1966-07-08,VincentDunn676@gmail.com
 1,Jason Collins,Curators,73.10,1997-05-08,2003-06-05,1976-01-16,Jason_Collins640@gmail.com
 2,Elizabeth Washington,Cleaner,39.46,2013-04-18,2015-01-11,1989-07-27,ElizabethWashington600@walla.com
