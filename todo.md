@@ -14,8 +14,9 @@ You can see all the tasks [here](https://docs.google.com/spreadsheets/d/1M6zAZbK
 - [x] Repopulate the table works-at so that every worker will work at least at one department
 - [x] Create one more index that optimize by at least 1 second (maybe worker's left date)
 - [x] Create 2 views for a single user (my user is HR)
-- [ ] Create 1 graph
-- [ ] PL/SQL programming: 1 function and 1 procedure
+- [x] Create 1 graph (I can use the query worker\_roles.sql to create a good graph)
+- [x] PL/SQL programming: 1 function
+- [ ] PL/SQL programming: 1 procedure
 - [ ] Find a teamate to use his tables.
 - [ ] Once we have tables from other teamates, create 1 queries that gives info from the combination of the tables.
 - [ ] Write on a Word file everything you have worked on according to [this](https://docs.google.com/spreadsheets/d/1M6zAZbKwIK7s4U-mniCKvBqlxmh60oTyiqIQdotG7WA/edit?usp=sharing)
