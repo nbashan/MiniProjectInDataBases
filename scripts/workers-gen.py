@@ -3,7 +3,7 @@ import datetime
 from faker import Faker
 from faker.providers import date_time
 
-ATTRIBUTES_ROW = 'WorkerId, Name, Role, SallaryPerHour, JoinDate, LeftDate, BirthDate, Email\n'
+ATTRIBUTES_ROW = 'WorkerId, Name, Role, SalaryPerHour, JoinDate, LeftDate, BirthDate, Email\n'
 YOUNGEST_AGE = 21
 OLDEST_AGE = 70
 MIN_SALLARY_PER_HOUR = 30
@@ -11,7 +11,7 @@ MAX_SALLARY_PER_HOUR = 120
 
 
 def gen_role():
-    return random.choice(["Guard", "Manager", "Cleaner", "Guide"])
+    return random.choice(["Guard", "Manager", "Cleaner", "Educator/Guide", "Archivist", "Exhibit Designer", "Conservator", "Curators", "Registrar", ])
 
 def gen_sallary_per_hour():
     return f"{random.uniform(MIN_SALLARY_PER_HOUR, MAX_SALLARY_PER_HOUR):.2f}"
