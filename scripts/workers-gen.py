@@ -11,7 +11,7 @@ MAX_SALLARY_PER_HOUR = 120
 
 
 def gen_role():
-    return random.choice(["Guard", "Manager", "Cleaner", "Guide"])
+    return random.choice(["Guard", "Manager", "Cleaner", "Educator/Guide", "Archivist", "Exhibit Designer", "Conservator", "Curators", "Registrar", ])
 
 def gen_sallary_per_hour():
     return f"{random.uniform(MIN_SALLARY_PER_HOUR, MAX_SALLARY_PER_HOUR):.2f}"
