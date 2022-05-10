@@ -13,7 +13,7 @@ You can see all the tasks [here](https://docs.google.com/spreadsheets/d/1M6zAZbK
 ## Meir
 - [x] Repopulate the table works-at so that every worker will work at least at one department
 - [x] Create one more index that optimize by at least 1 second (maybe worker's left date)
-- [ ] Create 2 views for a single user
+- [x] Create 2 views for a single user (my user is HR)
 - [ ] Create 1 graph
 - [ ] PL/SQL programming: 1 function and 1 procedure
 - [ ] Find a teamate to use his tables.
