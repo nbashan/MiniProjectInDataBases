@@ -6,7 +6,8 @@ You can see all the tasks [here](https://docs.google.com/spreadsheets/d/1M6zAZbK
 - [x] Create index that doesn't have to optimize the query time
 - [ ] Create 2 views for a single user (Read: [this](https://docs.google.com/spreadsheets/d/1M6zAZbKwIK7s4U-mniCKvBqlxmh60oTyiqIQdotG7WA/edit?pli=1#gid=0&range=G11))
 - [ ] Create 1 graph (Watch [this](https://drive.google.com/file/d/1xAWrRSOlAvb-X1x-HGiI3dapdlsZirbm/view?usp=sharing))
-- [ ] PL/SQL programming: 1 function and 1 procedure
+- [x] PL/SQL programming: 1 function
+- [ ] PL/SQL programming: 1 procedure
 - [ ] Once we have tables from other teamates, create 2 queries that gives info from the combination of the tables.
 - [ ] Write on a Word file everything you have worked on according to [this](https://docs.google.com/spreadsheets/d/1M6zAZbKwIK7s4U-mniCKvBqlxmh60oTyiqIQdotG7WA/edit?usp=sharing)
 
