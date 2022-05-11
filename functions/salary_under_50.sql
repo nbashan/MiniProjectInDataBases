@@ -1,0 +1,10 @@
+CREATE OR REPLACE FUNCTION SalaryUnder50(SalaryPerHour FLOAT NOT NULL)
+RETURN INT
+AS
+BEGIN
+    IF SalaryPerHour <= 50 THEN
+        RETURN 1;
+    ELSE
+        RETURN 0;
+    END IF;
+END;
