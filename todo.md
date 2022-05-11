@@ -5,7 +5,7 @@ You can see all the tasks [here](https://docs.google.com/spreadsheets/d/1M6zAZbK
 ## Nati
 - [x] Create index that doesn't have to optimize the query time
 - [ ] Create 2 views for a single user (Read: [this](https://docs.google.com/spreadsheets/d/1M6zAZbKwIK7s4U-mniCKvBqlxmh60oTyiqIQdotG7WA/edit?pli=1#gid=0&range=G11))
-- [ ] Create 1 graph (Watch [this](https://drive.google.com/file/d/1xAWrRSOlAvb-X1x-HGiI3dapdlsZirbm/view?usp=sharing))
+- [x] Create 1 graph (I can use the query worker\_mails.sql to create a good graph)(Watch [this](https://drive.google.com/file/d/1xAWrRSOlAvb-X1x-HGiI3dapdlsZirbm/view?usp=sharing))
 - [x] PL/SQL programming: 1 function
 - [ ] PL/SQL programming: 1 procedure
 - [ ] Once we have tables from other teamates, create 2 queries that gives info from the combination of the tables.
