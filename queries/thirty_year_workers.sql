@@ -1,3 +1,3 @@
 SELECT *
 FROM Worker
-where LeftDate is NULL and YEAR(CURDATE()) - YEAR(JoinDate) >= 30
+where LeftDate is NULL and EXTRACT(YEAR FROM CURRENT_DATE) - EXTRACT(YEAR FROM JoinDate) >= 30
