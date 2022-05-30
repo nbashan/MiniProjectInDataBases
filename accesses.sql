@@ -3,3 +3,6 @@ TO aheller;
 
 GRANT SELECT, REFERENCES ON Wing
 TO aheller;
+
+GRANT SELECT, REFERENCES ON Worker
+TO yyohanan;
