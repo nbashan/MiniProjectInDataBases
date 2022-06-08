@@ -2,6 +2,6 @@
 SELECT * FROM Department
 WHERE DepartmentId IN (SELECT DepartmentId FROM Department
                        MINUS
-                       SELECT DepartmentId
-                       FROM Worker NATURAL JOIN WorksAt NATURAL JOIN Department
+                       SELECT d.DepartmentId
+                       FROM Worker NATURAL JOIN WorksAt wa INNER JOIN Department d ON d.DepartmentId = wa.DepartmentId
                        WHERE Role = 'Manager');
