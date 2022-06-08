@@ -2,4 +2,4 @@
 SELECT WorkerId, Name, JoinDate, Email, COUNT(*) AS Departments
 FROM WorksAt NATURAL JOIN Worker
 WHERE LeftDate IS NULL
-GROUP BY WorkerId, Name;
+GROUP BY WorkerId, Name, JoinDate, Email;
