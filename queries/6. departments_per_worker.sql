@@ -2,4 +2,4 @@
 SELECT WorkerId, Name, SalaryPerHour, JoinDate, Email, COUNT(*) AS Departments
 FROM WorksAt NATURAL JOIN Worker
 WHERE LeftDate IS NULL
-GROUP BY WorkerId, Name, JoinDate, Email;
+GROUP BY WorkerId, SalaryPerHour, Name, JoinDate, Email;
