@@ -1,7 +1,6 @@
 CREATE OR REPLACE FUNCTION NumberWorkersOfDepartment(departmentId_ INT)
 RETURN INT
 AS
-DECLARE
     result INT;
 BEGIN
     SELECT COUNT(*) INTO result
