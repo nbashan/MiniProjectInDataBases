@@ -1,6 +1,6 @@
 CREATE OR REPLACE PROCEDURE FireWorker(workerId_ INT)
 AS
 BEGIN
-    DELETE FROM Worker
+    UPDATE Worker SET LeftDate = CURRENT_DATE
     WHERE workerId = workerId_;
 END;
