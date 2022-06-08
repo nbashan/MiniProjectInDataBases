@@ -4,5 +4,11 @@ TO aheller;
 GRANT SELECT, REFERENCES ON Wing
 TO aheller;
 
+GRANT SELECT, REFERENCES ON Department
+TO silon;
+
+GRANT SELECT, REFERENCES ON Wing
+TO silon;
+
 GRANT SELECT, REFERENCES ON Worker
 TO yyohanan;
