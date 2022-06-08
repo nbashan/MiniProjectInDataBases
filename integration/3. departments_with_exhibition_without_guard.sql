@@ -7,4 +7,6 @@ WHERE StartTime <= CURRENT_DATE AND CURRENT_DATE <= EndTime AND DepartmentId NOT
     SELECT DepartmentId
     FROM Department NATURAL JOIN WorksAt wa INNER JOIN Worker w ON wa.WorkerId = w.WorkerId
     WHERE LeftDate IS NULL AND Role = 'Guard'
-);
+)
+GROUP BY DepartmentId, Name
+ORDER BY DepartmentId;
