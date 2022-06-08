@@ -1,8 +1,0 @@
-GRANT SELECT, REFERENCES ON Department
-TO aheller;
-
-GRANT SELECT, REFERENCES ON Wing
-TO aheller;
-
-GRANT SELECT, REFERENCES ON Worker
-TO yyohanan;
