@@ -1,5 +1,5 @@
 -- Find all departments that don't have a manager
-SELECT * FROM Department
+SELECT DepartmentId, Name FROM Department
 WHERE DepartmentId IN (SELECT DepartmentId FROM Department
                        MINUS
                        SELECT d.DepartmentId
